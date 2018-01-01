@@ -1,0 +1,85 @@
+html,body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+}
+
+.pages{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.page{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.login.page {
+  background-color: #000;
+}
+.chat.page {
+  display: none;
+  text-align: center;
+}
+.page.login .form {
+  height: 100px;
+  background-color: #000;
+  margin-top: -100px;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+}
+
+.page.login .form .usernameInput {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 400px;
+  font-size: 200%;
+  color: #fff;
+  outline: none;
+}
+
+.page.login .title {
+  font-size: 200%;
+  color: #fff;
+}
+
+.chatArea {
+  height: 400px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.inputMessage {
+  border: 10px solid #000;
+  height: 60px;
+  width: 800px;
+  outline: none;
+  font-size: 100%;
+}
+
+.messages {
+  font-size: 150%;
+  height: 100%;
+  text-align: left;
+  overflow-y: scroll;
+  padding: 0px 20px;
+}
+.username {
+  padding-right: 15px;
+  font-weight: 700;
+}
+.log {
+  color: gray;
+  text-align: center;
+  margin: 5px;
+}
